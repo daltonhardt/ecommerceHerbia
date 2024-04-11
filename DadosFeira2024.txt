@@ -1,0 +1,55 @@
+ID,Imagem,Produto,Valor,Desconto,Estoque
+P01,./Images/Desodorantes/Des-Kit100g.jpg,Des Kit100g,[20, 10, 0],5,100
+P02,./Images/Desodorantes/Des-Kit60g.jpg,Des Kit60g,[20, 10, 0],5,100
+P03,./Images/Desodorantes/Des-Lavanda.jpg,Des Lavanda,[20, 10, 0],5,200
+P04,./Images/Desodorantes/Des-Refrescante.jpg,Des Refrescante,[20, 10, 0],5,200
+P05,./Images/Desodorantes/Des-Rosa-Mosq-creme.jpg,Des Rosa Mosq creme,[20, 10, 0],10,300
+P06,./Images/Desodorantes/Des-Rosa-Mosq-rollon.jpg,Des Rosa Mosq rollon,[20, 10, 0],10,300
+P07,./Images/Desodorantes/Des-Rosa-Mosq-spray.jpg,Des Rosa Mosq spray,[20, 10, 0],10,400
+P08,./Images/Desodorantes/Des-Sem-Perfume.jpg,Des Sem Perfume,[20, 10, 0],5,400
+P09,./Images/Desodorantes/Des-Spray.jpg,Des Spray,[20, 10, 0],5,500
+P10,./Images/Desodorantes/Des-Stick-100g.jpg,Des Stick 100g,[20, 10, 0],5,500
+P11,./Images/Desodorantes/Des-Stick-60g.jpg,Des Stick 60g,[20, 10, 0],5,500
+P12,./Images/Perfume/Perfume-Trau.jpg,Perfume Trau,[20, 10, 0],10,80
+P13,./Images/Protetor-Solar/Prot-Solar-Mista-Seca.jpg,Prot Solar Mista Seca,[20, 10, 0],8,100
+P14,./Images/Protetor-Solar/Protetor-Solar-Oleosa.jpg,Protetor Solar Oleosa,[20, 10, 0],8,100
+P15,./Images/Aromaterapia/Agua-Lavanda.jpg,Agua Lavanda,[20, 10, 0],5,200
+P16,./Images/Aromaterapia/Agua-Lippia.jpg,Agua Lippia,[20, 10, 0],5,200
+P17,./Images/Aromaterapia/Hidrolato-Melaleuca.jpg,Hidrolato Melaleuca,[20, 10, 0],5,300
+P18,./Images/Aromaterapia/Hidrolato-Patchouli.jpg,Hidrolato Patchouli,[20, 10, 0],5,300
+P19,./Images/Aromaterapia/Home-Spray-Lavanda.jpg,Home Spray Lavanda,[20, 10, 0],5,400
+P20,./Images/Aromaterapia/Home-Spray-Lippia.jpg,Home Spray Lippia,[20, 10, 0],5,400
+P21,./Images/Aromaterapia/OE-Alecrim.jpg,OE Alecrim,[20, 10, 0],5,500
+P22,./Images/Aromaterapia/OE-Bergamota.jpg,OE Bergamota,[20, 10, 0],5,500
+P23,./Images/Aromaterapia/OE-Citronela-org.jpg,OE Citronela org,[20, 10, 0],5,100
+P24,./Images/Aromaterapia/OE-Cravo-Botao.jpg,OE Cravo Botao,[20, 10, 0],5,110
+P25,./Images/Aromaterapia/OE-Eucalipto-org.jpg,OE Eucalipto org,[20, 10, 0],5,120
+P26,./Images/Aromaterapia/OE-Hortela-Pimenta.jpg,OE Hortela Pimenta,[20, 10, 0],5,130
+P27,./Images/Aromaterapia/OE-Laranja-Doce.jpg,OE Laranja Doce,[20, 10, 0],5,140
+P28,./Images/Aromaterapia/OE-Lavanda-40-42.jpg,OE Lavanda 40 42,[20, 10, 0],5,150
+P29,./Images/Aromaterapia/OE-Lavandin.jpg,OE Lavandin,[20, 10, 0],5,160
+P30,./Images/Aromaterapia/OE-Lemongrass.jpg,OE Lemongrass,[20, 10, 0],5,170
+P31,./Images/Aromaterapia/OE-Limao-Siciliano.jpg,OE Limao Siciliano,[20, 10, 0],5,180
+P32,./Images/Aromaterapia/OE-Melaleuca-Org.jpg,OE Melaleuca Org,[20, 10, 0],5,190
+P33,./Images/Aromaterapia/OE-Melaleuca.jpg,OE Melaleuca,[20, 10, 0],5,200
+P34,./Images/Aromaterapia/OE-Palmarosa.jpg,OE Palmarosa,[20, 10, 0],5,100
+P35,./Images/Aromaterapia/OE-Patchouli.jpg,OE Patchouli,[20, 10, 0],5,100
+P36,./Images/Aromaterapia/OE-Sangue-dragao.jpg,OE Sangue dragao,[20, 10, 0],5,250
+P37,./Images/Aromaterapia/OE-Ylang-ylang.jpg,OE Ylang ylang,[20, 10, 0],5,250
+P38,./Images/Aromaterapia/OV-Amendoa-Doce.jpg,OV Amendoa Doce,[20, 10, 0],5,300
+P39,./Images/Aromaterapia/OV-Copaiba.jpg,OV Copaiba,[20, 10, 0],5,300
+P40,./Images/Aromaterapia/OV-Semente-Uva.jpg,OV Semente Uva,[20, 10, 0],5,400
+P41,./Images/Aromaterapia/Oleo-Rosa-Mosqueta.jpg,Oleo Rosa Mosqueta,[20, 10, 0],5,200
+P42,./Images/Barras/Cond-2em1.jpg,Cond 2em1,[20, 10, 0],8,200
+P43,./Images/Barras/Cond-Suave.jpg,Cond Suave,[20, 10, 0],8,100
+P44,./Images/Barras/Leave-in.jpg,Leave in,[20, 10, 0],8,120
+P45,./Images/Barras/Mascara-capilar.jpg,Mascara capilar,[20, 10, 0],8,110
+P46,./Images/Barras/Sab-7-Ervas.jpg,Sab 7 Ervas,[20, 10, 0],8,100
+P47,./Images/Barras/Sab-Mulher.jpg,Sab Mulher,[20, 10, 0],8,240
+P48,./Images/Barras/Shamp-Cacheados.jpg,Shamp Cacheados,[20, 10, 0],8,150
+P49,./Images/Barras/Shamp-Mistos-a-Oleosos.jpg,Shamp Mistos a Oleosos,[20, 10, 0],8,100
+P50,./Images/Barras/Shamp-Secos-Res-ou-Danificados.jpg,Shamp Secos Res ou Danificados,[20, 10, 0],8,80
+P51,./Images/Skincare/Espuma.jpg,Espuma,[20, 10, 0],10,120
+P52,./Images/Skincare/Lip-Balm.jpg,Lip Balm,[20, 10, 0],10,100
+P53,./Images/Skincare/Sab-Dolomita.jpg,Sab Dolomita,[20, 10, 0],10,180
+P54,./Images/Skincare/Serum.jpg,Serum,[20, 10, 0],10,500
