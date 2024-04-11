@@ -1,0 +1,331 @@
+/**
+* ! Usando "better comment" extension para fazer os comentários
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+i {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/**
+* ! Navbar styles are here
+**/
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkslategray;
+    color: white;
+    padding: 20px 60px;
+    margin-bottom: 30px;
+}
+
+.entrada {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.tipoDeVenda{
+    display: grid;
+    column-gap: 50px;
+    height: 100px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.consumidorFinal {
+    font-size: x-large;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    max-width: 400px;
+}
+
+.lojista {
+    font-size: x-large;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    max-width: 400px;
+}
+
+.brinde {
+    font-size: x-large;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    max-width: 400px;
+}
+
+.cart{
+    position: relative;
+    background-color: white;
+    color: darkslategray;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    height: 90%;
+}
+
+.cartAmount {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+/**
+* ! Estilos dos itens para vender na loja estão daqui pra baixo
+**/
+.shop {
+    display: grid;
+    grid-template-columns: repeat(4, 223px);
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1000px) {
+    .shop{
+        grid-template-columns: repeat(2, 223px);
+    }
+}
+
+@media (max-width: 500px) {
+    .shop{
+        grid-template-columns: repeat(1, 223px);
+    }
+}
+
+.item {
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 2px 2px 0 0;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+}
+
+.price-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bi-dash-lg {
+    color: red;
+}
+
+.bi-plus-lg {
+    color: green;
+}
+
+.bi-trash {
+    color: black;
+}
+
+/**
+* ! Regras de estilos para o Label e alguns botões
+**/
+
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plus-minus-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 20px;
+}
+
+.HomeBtn, .continuarComprando, .checkout, .removeAll {
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.HomeBtn {
+    font-size: large;
+}
+.checkout {
+    background-color: rgb(21, 161, 21);
+}
+
+.continuarComprando {
+    background-color: rgb(68, 68, 182);
+}
+
+.removeAll {
+    background-color: red;
+    margin-left: 100px;
+}
+
+.bi-x-lg {
+    color: red;
+    font-weight: bold;
+}
+
+/* .formaPago {
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    font-size: x-large; */
+
+/* .formaPago {
+    display: grid;
+    column-gap: 50px;
+    height: 50px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+} */
+
+/**
+* ! Regra de estilo para o carrinho de compras
+**/
+
+.shopping-cart {
+    display: grid;
+    grid-template-columns: repeat(1,560px);
+    justify-content: center;
+    gap: 15px;
+}
+
+/**
+* ! Regras de estilos para os itens do carrinho de compras
+**/
+
+.cart-item  {
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+    display: flex;
+}
+
+.pagoPIX, .pagoCartao {
+    font-size: small;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 5px 20px ;
+    margin-right: 10px;
+}
+
+.pagoPIX:hover, .pagoCartao:hover {
+    background-color: gray;
+    transition: 0.2s;
+    color: white;
+}
+
+.pagoPIX:focus, .pagoCartao:focus {
+    background-color: gray;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 3px black;
+    margin-right: 15px;
+}
+
+#pagoPIX:active, #pagoCartao:active {
+    font-weight: 600;
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 3px black;
+}
+
+.title-price-x {
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.title-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-item-price {
+    background-color: darkslategray;
+    color: white;
+    border-radius: 4px;
+    padding: 3px 6px;
+}
+
+.price-discount {
+    width: 300px;
+    display: flex;
+    justify-content: right;
+    padding: 0px 5px;
+    line-height: 30px;
+    font-size: large;
+    justify-content: space-between;
+}
+
+.tipo-de-venda{	
+    animation-name:blink;
+    margin: auto;
+    text-align: center;
+    width:300px;
+    animation-duration:2s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:Infinite;
+    }
+    
+@keyframes blink {
+0%{color:white;}
+50%{color: red;}
+100%{color:white;}
+}
